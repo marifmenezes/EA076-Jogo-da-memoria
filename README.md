@@ -5,14 +5,15 @@
 O projeto consiste em utilizar a matriz de LEDs RGB 5x5 para criar um Jogo da Memória. O nível inicial do jogo utiliza apenas um led de posição aleatória para que o jogador memorize e tenha oportunidade de se familiarizar com o mecanismo do jogo em um nível simples. A luz será mostrada por um intervalo de tempo e depois será desligada. Em seguida será disponibilizado um led na posição central, o jogador deverá utilizar o joystick para posicionar o led no local memorizado e confirmar com um dos botões onde deseja “fixar” a luz. 
 
 ## Detalhamento do jogo
-Nosso jogo consiste em um desafio de memória utilizando uma matriz 5x5 do Bitdoglab para exibir imagens que devem ser memorizadas.Nele utilizaremos:
+Nosso jogo consiste em um desafio de memória utilizando uma matriz 5x5 do Bitdoglab para exibir imagens que devem ser memorizadas. Nele utilizaremos:
 - Matriz de LED
 - Joystick
 - Botão B
 - Display
 
 
- O funcionamento do jogo é o seguinte:
+O funcionamento do jogo é o seguinte:
+
 No primeiro nível, um único LED acenderá em uma posição aleatória na matriz.
 O LED permanecerá aceso por 2 segundos e depois apagará.
 Após o LED apagar, um LED central na matriz 5x5, de cor branca, será aceso para indicar que o jogador pode iniciar a jogada.
@@ -26,6 +27,8 @@ Os níveis avançam de 1 a 15, com a quantidade de LEDs a serem memorizados corr
 
 
 ## Código
+
+Para dar início ao código do projeto conversamos com o ChatGPT utilizando o modelo que descreve o hardware do sistema embarcado utilizado, a partir disso, fomos editando o códio para o que precisaríamos para o jogo da memória.
 
 Em seguida, definimos as funções que vão compor o código principal do projeto. 
 - Read joystick: Lê os valores dos eixos X e Y do joystick e os converte em uma escala de 0 a 10.
