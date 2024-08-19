@@ -1,4 +1,4 @@
-# EE076-Laboratorio-de-Embarcados
+# EA076-Laboratorio-de-Embarcados
 
 ## Descrição
 
